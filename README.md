@@ -1,16 +1,5 @@
 # OrangeFox Recovery for Samsung Galaxy A6+ (a6plus)
 
-<!-- Language Selector -->
-<div align="center">
-
-**Choose language**  
-- [English](#-english)  
-- [Français](#-français)  
-- [فارسی](#-فارسی)  
-- [Русский](#-русский)  
-- [中文](#-中文)
-
-</div>
 
 ---
 
@@ -511,13 +500,3 @@ Je mettrai cette section à jour dès qu’un problème sera confirmé.
 ---
 
 <!-- Footer Language Switcher -->
-<div align="center">
-
-**Choose language**  
-- [English](#-english)  
-- [Français](#-français)  
-- [فارسی](#-فارسی)  
-- [Русский](#-русский)  
-- [中文](#-中文)
-
-</div>
