@@ -58,7 +58,6 @@
 - Full support for **Treble and non-Treble ROMs**
 - Complete **backup/restore** (System, Data, Boot, Vendor, EFS, Modem…)
 - Advanced **File Manager** and **Terminal**
-- Flashlight, screen timeout, brightness control and other handy utilities
 - **Magisk** and other flashable zips support (up-to-date)
 - **OTG** and external SD card support
 - OTA-style incremental updates (where applicable)
