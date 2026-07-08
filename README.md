@@ -16,6 +16,8 @@
 ## 📥 How to Install
 ---
 
+
+
 ### ⚠️ Prerequisites
 - Unlocked bootloader (this will void warranty and trip Knox)
 - A Windows PC with **Samsung USB drivers** and **Odin** installed
