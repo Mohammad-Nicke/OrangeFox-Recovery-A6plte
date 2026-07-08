@@ -119,3 +119,14 @@ I will update this section as soon as any issue is confirmed.
 - If you use my port as a base for your own project, **ask first** and clearly mention the original source.
 - “OrangeFox” and its logo are the property of the **OrangeFox Recovery Project**. This is an unofficial port.
 - I am **not responsible** for bricked devices, lost data, thermonuclear war, or anything else that happens after you flash this recovery. You do it at your own risk.
+
+---
+
+## 🙏 Acknowledgments & Contact
+
+A big thanks to everyone who helped with testing and bug fixing during the development of this port.
+
+If you encounter any issue, need help, or have any questions, feel free to reach out:
+
+- 📱 **Telegram:** [@Mohammad_nicke](https://t.me/Mohammad_nicke)  
+- 📧 **Email:** [mohammad.nikparvarian@gmail.com](mailto:mohammad.nikparvarian@gmail.com)
