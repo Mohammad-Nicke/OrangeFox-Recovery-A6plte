@@ -10,13 +10,14 @@
 - **Developer:** Mr.Nick
 
 ---
+
 > ⚠️ **ATTENTION!!!**  
 > If you are unable to flash the **Disable_Dm-Verity_ForceEncrypt** file directly in OrangeFox, **first install TWRP recovery**, then flash your `Disable_Dm-Verity_ForceEncrypt` zip from TWRP. After that, follow the installation guide above to install OrangeFox using your preferred method.  
 > **The order of flashing is very important!**
-## 📥 How to Install
+
 ---
 
-
+## 📥 How to Install
 
 ### ⚠️ Prerequisites
 - Unlocked bootloader (this will void warranty and trip Knox)
@@ -118,5 +119,3 @@ I will update this section as soon as any issue is confirmed.
 - If you use my port as a base for your own project, **ask first** and clearly mention the original source.
 - “OrangeFox” and its logo are the property of the **OrangeFox Recovery Project**. This is an unofficial port.
 - I am **not responsible** for bricked devices, lost data, thermonuclear war, or anything else that happens after you flash this recovery. You do it at your own risk.
-
----
