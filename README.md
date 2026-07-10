@@ -76,8 +76,7 @@ If you prefer to start with Odin (for example, if you have no custom recovery ye
 - Many more OrangeFox‑exclusive tweaks (explore the settings!)
 
 ### 🔄 Backup Migration (Build #2+)
-When you update from Build #1 to Build #2 or later, your existing backups are **automatically moved** from the `/TWRP` folder to the `/Fox` folder.  
-This way you can still restore all your previous backups directly through OrangeFox without any manual copying.
+When you install Build 2 or later, your existing TWRP backups are automatically migrated to OrangeFox so you can still access all your previous backups.
 
 ### 🌐 Supported Languages
 The recovery interface is fully translated into the following languages (switchable in settings):
