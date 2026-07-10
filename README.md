@@ -1,7 +1,7 @@
 # 🦊 OrangeFox Recovery for Samsung Galaxy A6+ (a6plus)
 
 ## 📱 Information
-|               |                                                               |
+
 |---------------|---------------------------------------------------------------|
 | **Device**    | Samsung Galaxy A6+                                            |
 | **Models**    | SM-A605F / SM-A605FN / SM-A605G / SM-A605GN (others may work) |
