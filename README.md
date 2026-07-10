@@ -1,79 +1,85 @@
-# OrangeFox Recovery for Samsung Galaxy A6+ (a6plus)
+# 🦊 OrangeFox Recovery for Samsung Galaxy A6+ (a6plus)
 
 ## 📱 Information
-- **Device:** Samsung Galaxy A6+  
-- **Model(s):** SM-A605F / SM-A605FN / SM-A605G / SM-A605GN (others may work)  
-- **Codename:** `a6plus`  
-- **Recovery:** OrangeFox Recovery (Unofficial Port)  
-- **Based on:** TWRP  
-- **Build status:** Unofficial / Port  
-- **Developer:** Mr.Nick
+|               |                                                               |
+|---------------|---------------------------------------------------------------|
+| **Device**    | Samsung Galaxy A6+                                            |
+| **Models**    | SM-A605F / SM-A605FN / SM-A605G / SM-A605GN (others may work) |
+| **Codename**  | `a6plus`                                                      |
+| **Recovery**  | OrangeFox Recovery (Unofficial Port)                          |
+| **Based on**  | TWRP                                                          |
+| **Status**    | Unofficial / Port                                             |
+| **Developer** | Mr.Nick                                                       |
 
 ---
 
-> ⚠️ **ATTENTION!!!**  
-> If you are unable to flash the **Disable_Dm-Verity_ForceEncrypt** file directly in OrangeFox, **first install TWRP recovery**, then flash your `Disable_Dm-Verity_ForceEncrypt` zip from TWRP. After that, follow the installation guide above to install OrangeFox using your preferred method.  
-> **The order of flashing is very important!**
+> ⚠️ **IMPORTANT**  
+> If you cannot flash the **Disable_Dm-Verity_ForceEncrypt** file directly in OrangeFox, **first install TWRP recovery**, then flash your `Disable_Dm-Verity_ForceEncrypt` zip from TWRP.  
+> After that, install OrangeFox using the method described below.  
+> **The order of flashing is critical!**
 
 ---
 
-## 📥 How to Install
+## 📥 Installation
 
-### ⚠️ Prerequisites
+### 🔧 Prerequisites
 - Unlocked bootloader (this will void warranty and trip Knox)
-- A Windows PC with **Samsung USB drivers** and **Odin** installed
-- A working USB cable (preferably original)
-- The provided **OrangeFox recovery `.tar` file** (or `.img` if you already have a custom recovery)
+- A custom recovery already installed (for the ZIP method)  
+- The OrangeFox **`.zip`** file (any build)
 
-> 🔔 **Important:** After flashing with Odin, you **must** reboot directly into recovery. Otherwise, the stock ROM will overwrite OrangeFox with the stock recovery.
-
----
-
-### Method 1: Flash with Odin (recommended for first-time installation)
-
-1. Download the OrangeFox `.tar` file onto your PC.
-2. Power off your phone completely.
-3. Boot into **Download Mode**:  
-   Press and hold **Volume Up + Volume Down**, then connect the phone to your PC with the USB cable.  
-   Release the buttons when the warning screen appears, then press **Volume Up** to continue.
-4. Launch **Odin** on your PC. Make sure your phone is recognised (a blue or yellow COM port should appear).
-5. Click the **AP** button and select the OrangeFox `.tar` file.
-6. In the **Options** tab, **untick “Auto Reboot”**.
-7. Click **Start**. Wait for the process to finish and show **PASS!**.
-8. Disconnect the USB cable.
-9. Forcefully reboot straight into recovery:  
-   Press and hold **Volume Up + Power** until the phone restarts and you see the OrangeFox logo.
-10. Release the buttons – you are now in OrangeFox Recovery.
+> 💡 **For first-time installation** you may also use the **Build #1 Odin `.tar`** – see the note at the bottom of this section.
 
 ---
 
-### Method 2: Flash from an existing custom recovery (e.g. TWRP)
+### 📂 Recommended Method: Flash via Custom Recovery (ZIP)
 
-1. Copy the OrangeFox `.img` file to your phone’s internal storage or SD card.
-2. Boot into your current custom recovery.
-3. Tap **Install** → **Install Image**.
-4. Navigate to and select the `OrangeFox-*.img` file.
-5. Choose **Recovery** as the target partition and swipe to flash.
-6. Go back to the home screen and select **Reboot** → **Recovery**.
+1. Copy the OrangeFox `.zip` file to your phone’s internal storage or SD card.
+2. Boot into your current custom recovery (e.g., TWRP).
+3. Tap **Install**.
+4. Navigate to the `OrangeFox-*.zip` file and select it.
+5. Swipe to confirm the flash.
+6. Once the installation finishes, return to the home screen.
+7. Go to **Reboot → Recovery** to restart into OrangeFox.
+8. (Optional) You can delete the `.zip` file after the first successful boot.
+
+> 🔁 **If you are upgrading from an older OrangeFox build**, simply flash the newer ZIP in the same way.  
+> Your backups and settings will be preserved.
+
+---
+
+### 📦 Additional Note: Odin Flash (Build #1 only)
+
+> ℹ️ **Odin flashing is available only in Build #1.**  
+> Newer builds can **only** be installed via the custom recovery method above.
+
+If you prefer to start with Odin (for example, if you have no custom recovery yet), you can use the special Build #1 `.tar` file:  
+[**Download Odin flashable Build #1**](https://github.com/Mohammad-Nicke/OrangeFox-Recovery-A6plte/releases/download/R11.0-B1/OrangeFox-R11.0-install_with_Odin.tar)
+
+> ⚠️ **IMPORTANT:** After flashing Build #1 with Odin, **it is strongly recommended to immediately update to the latest build** using the ZIP method (flash the newest `.zip` file from within OrangeFox itself). This ensures you have all the latest fixes and improvements.
 
 ---
 
 ## ✨ Features
+
 - Modern **Material Design 2** interface
-- Built-in **password/PIN protection** for recovery
-- Full support for **Treble and non-Treble ROMs**
-- Complete **backup/restore** (System, Data, Boot, Vendor, EFS, Modem…)
+- Password / PIN protection for the recovery itself
+- Full support for **Treble** and **non‑Treble** ROMs
+- Complete **backup & restore** (System, Data, Boot, Vendor, EFS, Modem, etc.)
 - Advanced **File Manager** and **Terminal**
-- **Magisk** and other flashable zips support (up-to-date)
+- Up‑to‑date **Magisk** and flashable ZIP support
 - **OTG** and external SD card support
-- OTA-style incremental updates (where applicable)
-- Ability to flash `.img` files directly to various partitions
-- **Full English language support** – recovery interface in English
-- **Ported recovery from a compatible model, merged with TWRP 3.3.1 kernel (best compatibility for A6+)**
-- More OrangeFox exclusive tweaks (check the settings!)
+- OTA‑style incremental updates (where applicable)
+- Direct flashing of `.img` files to various partitions
+- **Full English language support** – recovery UI in English
+- **Ported recovery merged with TWRP 3.3.1 kernel** – best compatibility for the A6+
+- Many more OrangeFox‑exclusive tweaks (explore the settings!)
+
+### 🔄 Backup Migration (Build #2+)
+When you update from Build #1 to Build #2 or later, your existing backups are **automatically moved** from the `/TWRP` folder to the `/Fox` folder.  
+This way you can still restore all your previous backups directly through OrangeFox without any manual copying.
 
 ### 🌐 Supported Languages
-The recovery interface has been translated into the following languages (selectable in settings):
+The recovery interface is fully translated into the following languages (switchable in settings):
 
 - Čeština (Czech)
 - Deutsch (German)
@@ -102,11 +108,12 @@ The recovery interface has been translated into the following languages (selecta
 ---
 
 ## 🐞 Bugs / Known Issues
-**No bugs have been identified so far!** 🎉  
-But if you find any, please **you tell me** – I’d really appreciate your report.  
-📧 Click here to send an email: [mohammad..nikparvarian@gmail.com](mailto:mohammad..nikparvarian@gmail.com)
 
-I will update this section as soon as any issue is confirmed.
+**No bugs have been identified so far!** 🎉  
+If you encounter something, please **let me know** – your report is highly appreciated.  
+📧 [mohammad..nikparvarian@gmail.com](mailto:mohammad..nikparvarian@gmail.com)  
+
+I’ll update this section as soon as any issue is confirmed.
 
 ---
 
@@ -116,17 +123,17 @@ I will update this section as soon as any issue is confirmed.
 > Selling, monetising, or using this recovery in any paid service is **forbidden**.
 
 - Do **not** steal, re‑upload, or mirror this work without **explicit permission** and proper credits.
-- If you use my port as a base for your own project, **ask first** and clearly mention the original source.
+- If you use this port as a base for your own project, **ask first** and clearly mention the original source.
 - “OrangeFox” and its logo are the property of the **OrangeFox Recovery Project**. This is an unofficial port.
-- I am **not responsible** for bricked devices, lost data, thermonuclear war, or anything else that happens after you flash this recovery. You do it at your own risk.
+- I am **not responsible** for bricked devices, lost data, thermonuclear war, or anything else that happens after you flash this recovery. Everything you do is at your own risk.
 
 ---
 
 ## 🙏 Acknowledgments & Contact
 
-A big thanks to everyone who helped with testing and bug fixing during the development of this port.
+A huge thanks to everyone who helped with testing and bug fixing during the development of this port.
 
-If you encounter any issue, need help, or have any questions, feel free to reach out:
+If you run into any problems, need help, or just have a question, feel free to reach out:
 
 - 📱 **Telegram:** [@Mohammad_nicke](https://t.me/Mohammad_nicke)  
 - 📧 **Email:** [mohammad.nikparvarian@gmail.com](mailto:mohammad.nikparvarian@gmail.com)
