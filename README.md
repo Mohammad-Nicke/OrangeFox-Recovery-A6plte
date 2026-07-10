@@ -23,25 +23,23 @@
 
 ## 📥 Installation
 
-### 🔧 Prerequisites
-- Unlocked bootloader (this will void warranty and trip Knox)
-- A custom recovery already installed (for the ZIP method)  
-- The OrangeFox **`.zip`** file (any build)
+### 🔧 Before you start
+- A custom recovery (such as TWRP) must already be installed on your device.  
+- Download the **latest OrangeFox `.zip` file** from the [Releases page](https://github.com/Mohammad-Nicke/OrangeFox-Recovery-A6plte/releases) and copy it to your phone’s internal storage or SD card.
 
-> 💡 **For first-time installation** you may also use the **Build #1 Odin `.tar`** – see the note at the bottom of this section.
+> 💡 **If you are installing OrangeFox for the very first time**, you can also use the **Build #1 Odin `.tar`** – see the note at the bottom of this section.
 
 ---
 
 ### 📂 Recommended Method: Flash via Custom Recovery (ZIP)
 
-1. Copy the OrangeFox `.zip` file to your phone’s internal storage or SD card.
-2. Boot into your current custom recovery (e.g., TWRP).
-3. Tap **Install**.
-4. Navigate to the `OrangeFox-*.zip` file and select it.
-5. Swipe to confirm the flash.
-6. Once the installation finishes, return to the home screen.
-7. Go to **Reboot → Recovery** to restart into OrangeFox.
-8. (Optional) You can delete the `.zip` file after the first successful boot.
+1. Boot into your current custom recovery (e.g., TWRP).
+2. Tap **Install**.
+3. Navigate to the `OrangeFox-*.zip` file and select it.
+4. Swipe to confirm the flash.
+5. Once the installation finishes, return to the home screen.
+6. Go to **Reboot → Recovery** to restart into OrangeFox.
+7. (Optional) You can delete the `.zip` file after the first successful boot.
 
 > 🔁 **If you are upgrading from an older OrangeFox build**, simply flash the newer ZIP in the same way.  
 > Your backups and settings will be preserved.
@@ -57,6 +55,11 @@ If you prefer to start with Odin (for example, if you have no custom recovery ye
 [**Download Odin flashable Build #1**](https://github.com/Mohammad-Nicke/OrangeFox-Recovery-A6plte/releases/download/R11.0-B1/OrangeFox-R11.0-install_with_Odin.tar)
 
 > ⚠️ **IMPORTANT:** After flashing Build #1 with Odin, **it is strongly recommended to immediately update to the latest build** using the ZIP method (flash the newest `.zip` file from within OrangeFox itself). This ensures you have all the latest fixes and improvements.
+
+---
+
+> 🕒 **Stay up to date!**  
+> Check this page from time to time. If a new version is released, download and install it to keep your recovery current.
 
 ---
 
