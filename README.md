@@ -138,4 +138,4 @@ If you run into any problems, need help, or just have a question, feel free to r
 
 - 📱 **Telegram:** [@Mohammad_nicke](https://t.me/Mohammad_nicke)  
 - 📧 **Email:** [mohammad.nikparvarian@gmail.com](mailto:mohammad.nikparvarian@gmail.com)# 🦊 OrangeFox Recovery for Samsung Galaxy A6+ (a6plus)
-
+- 💬 **Official XDA Thread:**  [XDA](https://xdaforums.com/t/recovery-unofficial-a605x-orangefox-recovery-project-r11-0-for-samsung-galaxy-a6-a6plus.4795475/)  
